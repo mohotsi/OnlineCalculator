@@ -63,7 +63,7 @@ automation assignment to simulate the behaviour of a user which interacts with t
 Copyright (c) [2022] [Thapelo]
 For helping me get vacancies
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Online calculator automation solution)
 
 ---
 
@@ -72,7 +72,7 @@ For helping me get vacancies
 - linkedin - [Thapelo Daniel Mohotsi](https://www.linkedin.com/in/thapelo-daniel-mohotsi-1b752a42/)
 - github - [Thapelo Daniel Mohotsi](https://github.com/mohotsi)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#Online calculator automation solution)
 
 
 
