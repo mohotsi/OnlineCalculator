@@ -46,7 +46,6 @@ automation assignment to simulate the behaviour of a user which interacts with t
 
 #### running-automation-pack
 - selenium grid /zalenium docker image must be running (!)
-- virtual machine must be on (!)
 
        $~> rm -rf automationworkspace
        $~> mkdir automationworkspace
