@@ -31,7 +31,7 @@ public class CalculatorPage extends CommonPage {
     boolean alreadyInframe=false;
 
 Map<String,Runnable> commands=Map.ofEntries(
-        Map.entry("0",()->clickOne()),
+        Map.entry("0",()->clickZero()),
         Map.entry("1",()->clickOne()),
         Map.entry("2",()->clickTwo()),
 
@@ -42,6 +42,7 @@ Map<String,Runnable> commands=Map.ofEntries(
         Map.entry("7",()->clickSeven()),
         Map.entry("8",()->clickEight()),
         Map.entry("9",()->clickNine()),
+        Map.entry(".",()->clickDot()),
         Map.entry("+",()->clickplus()),
         Map.entry("-",()->clickMinus()),
         Map.entry("x",()->clickMultiply()),
@@ -82,7 +83,7 @@ Map<String,Runnable> commands=Map.ofEntries(
     }
 
     public void click(String operation){
-        if(operation.matches("[0-9]+")){
+        if(operation.matches("[0-9\\.]+")){
             val time=  operation.chars().mapToObj(Character::toString).collect(Collectors.toList());
             time.forEach(op->commands.get(op).run());
         }
@@ -90,7 +91,7 @@ Map<String,Runnable> commands=Map.ofEntries(
            commands.get(operation).run();
 
     }
-    public Integer getResults() throws Exception {
+    public Double getResults() throws Exception {
     Thread.sleep(3000);
         val resultsScreen=   getScreenShot(calculator,6);
         Ocr.setUp();
@@ -99,7 +100,7 @@ Map<String,Runnable> commands=Map.ofEntries(
 
         String s = ocr.recognize(new File[] {resultsScreen },
                 Ocr.RECOGNIZE_TYPE_TEXT, Ocr.OUTPUT_FORMAT_PLAINTEXT).replace("*","0");// it thinks zero is a star
-        val results=Integer.parseInt(s.replaceAll("[^0-9]",""));
+        val results=Double.parseDouble(s.replaceAll("[^0-9\\.]",""));
         if (resultsScreen.exists()){
             resultsScreen.delete();
         }

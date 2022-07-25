@@ -7,7 +7,14 @@ Feature: Calculator
     |        9 |
     |        =|
     Then the screen results should display "43"
-
+  Scenario: subtract numbers
+    Given User enter the following keys
+      |key|
+      |       1|
+      |        - |
+      |        0.5 |
+      |        =|
+    Then the screen results should display "0.5"
   Scenario: subtract numbers
     Given User enter the following keys
       |key|

@@ -32,7 +32,7 @@ public class CalculatorDefinition {
     @Then("the screen results should display {string}")
     public void theScreenResultsShouldDisplay(String results) throws Exception {
 
-        assertEquals("the results displayed are incorrect",Integer.valueOf(results.trim()),calculatorPage.getResults());
+        assertEquals("the results displayed are incorrect",Double.valueOf(results.trim()),calculatorPage.getResults());
     }
 
     @Given("User enter the following keys")
