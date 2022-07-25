@@ -1,16 +1,14 @@
 # Online calculator automation solution
 
-![Project Image](project-image-url)
+![Project Image](https://media-exp1.licdn.com/dms/image/D4D35AQFlDUkTx-OTxw/profile-framedphoto-shrink_200_200/0/1655459200064?e=1659337200&v=beta&t=Ysk-oT0JVkC9aoTYZr23s9aFlV5ZUsX4x0tGio5w08w)
 
 > Test automation solution
 
 ---
-
 ### Table of Contents
 
 
 - [Description](#description)
-- [Virtual machine installation and setup](#How to get your virtual box up and running)
 - [Installing docker images](#Images installation)
 - [Running automation pack](#How to run the automation pack)
 - [License](#license)
@@ -27,22 +25,9 @@ automation assignment to simulate the behaviour of a user which interacts with t
 - springboot maven frame work (POM)
 - git
 
-[Back To The Top](#covenant automation solution)
+[Back To The Top](#Online calculator automation solution)
 
-## How to get your virtual box up and running
-### install on Unix(linux)
-    $>sudo apt-get install virtualbox
-- create new virtual machine with Windows 10
-- install Windows 10 OS
-- [set up port forwarding](https://www.howtogeek.com/122641/how-to-forward-ports-to-a-virtual-machine-and-use-it-as-a-server/)
-- start up the machine
-- install OPenSSH on Windows
-- Disable Windows defender and windows anti virus
-- sudo apt-get install virtualbox
-- open powershell as admin and type the following:
-  windows/system32> Start-Service sshd
-  windows/system32> Enable-Remoting sshd
-- if you can ssh into the virtual machine you are good to go
+
 
 ## How To Use
 
