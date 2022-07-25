@@ -68,6 +68,7 @@ For helping me get vacancies
 ---
 
 ## Author Info
+Test Automation engineer - Thapelo Daniel Mohotsi
 
 - linkedin - [Thapelo Daniel Mohotsi](https://www.linkedin.com/in/thapelo-daniel-mohotsi-1b752a42/)
 - github - [Thapelo Daniel Mohotsi](https://github.com/mohotsi)
