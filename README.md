@@ -31,7 +31,7 @@ automation assignment to simulate the behaviour of a user which interacts with t
 
 ## How To Use
 
-## Images Installation
+## Images installation
 ### Pull docker-selenium
 
      docker pull elgalu/selenium
