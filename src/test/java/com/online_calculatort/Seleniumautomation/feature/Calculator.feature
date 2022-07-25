@@ -7,7 +7,7 @@ Feature: Calculator
     |        9 |
     |        =|
     Then the screen results should display "43"
-  Scenario: subtract numbers
+  Scenario: subtract number with fraction
     Given User enter the following keys
       |key|
       |       1|
@@ -15,14 +15,21 @@ Feature: Calculator
       |        0.5 |
       |        =|
     Then the screen results should display "0.5"
-  Scenario: subtract numbers
+  Scenario: subtract number with fraction
     Given User enter the following keys
       |key|
-      |       14|
+      |       1|
       |        - |
-      |        4 |
+      |        0.5 |
       |        =|
-    Then the screen results should display "10"
+    Then the screen results should display "0.5"
+  Scenario: inverse function
+    Given User enter the following keys
+      |key|
+      |       2|
+      |        1/x |
+      |         = |
+    Then the screen results should display "0.5"
 
   Scenario:  multiply numbers
     Given User enter the following keys

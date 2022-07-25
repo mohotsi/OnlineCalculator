@@ -83,7 +83,8 @@ Map<String,Runnable> commands=Map.ofEntries(
     }
 
     public void click(String operation){
-        if(operation.matches("[0-9\\.]+")){
+
+        if(operation.matches("[0-9x=\\-\\.\\+]+")){
             val time=  operation.chars().mapToObj(Character::toString).collect(Collectors.toList());
             time.forEach(op->commands.get(op).run());
         }
