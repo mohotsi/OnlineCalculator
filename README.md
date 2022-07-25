@@ -1,4 +1,4 @@
-# Online calculator automation solution
+#Online-calculator
 
 ![Project Image](https://media-exp1.licdn.com/dms/image/D4D35AQFlDUkTx-OTxw/profile-framedphoto-shrink_200_200/0/1655459200064?e=1659337200&v=beta&t=Ysk-oT0JVkC9aoTYZr23s9aFlV5ZUsX4x0tGio5w08w)
 
@@ -10,7 +10,7 @@
 
 - [Description](#description)
 - [Installing docker images](#Images-installation)
-- [Running automation pack](#How to run the automation pack)
+- [Running automation pack](#running-automation-pack)
 - [License](#license)
 - [Author Info](#author-info)
 ---
@@ -25,7 +25,7 @@ automation assignment to simulate the behaviour of a user which interacts with t
 - springboot maven frame work (POM)
 - git
 
-[Back To The Top](#Online calculator automation solution)
+[Back To The Top](#Online-calculator)
 
 
 
@@ -44,7 +44,7 @@ automation assignment to simulate the behaviour of a user which interacts with t
       -v /tmp/videos:/home/seluser/videos \
       --privileged dosel/zalenium start --desiredContainers 1
 
-#### How to run the automation pack
+#### running-automation-pack
 - selenium grid /zalenium docker image must be running (!)
 - virtual machine must be on (!)
 
@@ -63,7 +63,7 @@ automation assignment to simulate the behaviour of a user which interacts with t
 Copyright (c) [2022] [Thapelo]
 For helping me get vacancies
 
-[Back To The Top](#Online calculator automation solution)
+[Back To The Top](#Online-calculator)
 
 ---
 
@@ -72,7 +72,7 @@ For helping me get vacancies
 - linkedin - [Thapelo Daniel Mohotsi](https://www.linkedin.com/in/thapelo-daniel-mohotsi-1b752a42/)
 - github - [Thapelo Daniel Mohotsi](https://github.com/mohotsi)
 
-[Back To The Top](#Online calculator automation solution)
+[Back To The Top](#Online-calculator)
 
 
 
