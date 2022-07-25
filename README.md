@@ -9,7 +9,7 @@
 
 
 - [Description](#description)
-- [Installing docker images](#Images installation)
+- [Installing docker images](#Images-installation)
 - [Running automation pack](#How to run the automation pack)
 - [License](#license)
 - [Author Info](#author-info)
@@ -31,7 +31,7 @@ automation assignment to simulate the behaviour of a user which interacts with t
 
 ## How To Use
 
-## Images installation
+## Images-installation
 ### Pull docker-selenium
 
      docker pull elgalu/selenium
